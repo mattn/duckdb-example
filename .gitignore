@@ -1,0 +1,7 @@
+*.exe
+*.dll
+*.a
+*.o
+*.def
+tags
+duckdb.*
