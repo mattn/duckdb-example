@@ -4,7 +4,7 @@ SRCS = \
 OBJS = $(subst .c,.o,$(SRCS))
 
 CXXFLAGS = 
-LIBS = -L. -lduckdb -lmsvcrt
+LIBS = -L. -lduckdb
 TARGET = main
 ifeq ($(OS),Windows_NT)
 TARGET := $(TARGET).exe
